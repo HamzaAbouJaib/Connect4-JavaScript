@@ -1,0 +1,54 @@
+.container {
+    margin: 5rem auto 0;
+    width: 700px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.grid {
+    height: 600px;
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+}
+
+.grid div {
+    height: 100px;
+    width: 100px;
+}
+
+.slot {
+    border-radius: 50%;
+    background-color: white;
+    scale: 0.85;
+}
+
+.player1 {
+    background-color: red;
+    border-radius: 50%;
+    scale: 0.85;
+}
+
+.player2 {
+    background-color: blue;
+    border-radius: 50%;
+    scale: 0.85;
+}
+
+#current-player {
+    color: red;
+}
+
+.restart {
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: lightskyblue;
+    transition: all 0.2s ease-in-out;
+}
+
+.restart:hover {
+    background-color: rgb(56, 177, 224);
+}
